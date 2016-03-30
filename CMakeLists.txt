@@ -24,7 +24,7 @@ endif(APPLE)
 find_package(OpenCV REQUIRED)
 set(LIBS ${OpenCV_LIBS})
 
-include_directories(opentoonz_plugin_headers include "${OpenCV_INCLUDE_DIRS}")
+include_directories(plugin_sdk/core include "${OpenCV_INCLUDE_DIRS}")
 link_directories("${OpenCV_LIBS}")
 
 set(HEADERS

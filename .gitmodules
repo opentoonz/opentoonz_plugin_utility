@@ -1,3 +1,3 @@
-[submodule "opentoonz_plugin_headers"]
-	path = opentoonz_plugin_headers
-	url = https://github.com/opentoonz/opentoonz_plugin_headers.git
+[submodule "plugin_sdk"]
+	path = plugin_sdk
+	url = https://github.com/opentoonz/plugin_sdk.git
