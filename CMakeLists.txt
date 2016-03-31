@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 2.4)
+cmake_policy(SET CMP0015 NEW)
 project(opentoonz_plugin_utility)
 
 if(WIN32)
@@ -18,7 +19,7 @@ if(WIN32)
 endif(WIN32)
 
 if(APPLE)
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -stdlib=libc++")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -stdlib=libc++")
 endif(APPLE)
 
 find_package(OpenCV REQUIRED)
