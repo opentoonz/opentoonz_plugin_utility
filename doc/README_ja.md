@@ -28,4 +28,4 @@ OpenToonz を再起動させるとプラグインが読み込まれ、FX Schemat
 
 ## ライブラリを利用したプラグイン開発
 
-[こちら](./doc/opentoonz_plugin_utility_ja.md) を参照してください。
+[こちら](./opentoonz_plugin_utility_ja.md) を参照してください。
