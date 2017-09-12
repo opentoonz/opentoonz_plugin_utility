@@ -168,7 +168,7 @@ Fx::~Fx() {}
 
 std::string Fx::get_stuff_dir() {
   static std::string const dir =
-      get_system_var("SOFTWARE\\OpenToonz\\OpenToonz\\1.0", "TOONZROOT");
+      get_system_var("SOFTWARE\\OpenToonz\\OpenToonz\\1.1", "TOONZROOT");
   return dir;
 }
 
